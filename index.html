@@ -1,90 +1,143 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fanpage</title>
+  <!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Fanpage</title>
 
-    <!--Stylesheets-->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+      <!--Stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css"> 
+      <!--FontAwesome Icons-->
+      <script src="https://kit.fontawesome.com/576f8154b0.js"></script>
+      <!--Favicon-->
+      <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+      <link rel="manifest" href="img/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
 
-</head>
+  </head>
 
-<body>
-    <header>
-        <!--Simple Navbar added from bootstrap-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                    <a class="navbar-brand" href="#">
-                            <img src="img/iPrevail.png" height="80" class="d-inline-block align-top" alt="iPrevailLogo">
-                          </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="http://www.iprevailband.com/" target="_blank">iPrevail <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                      </ul>
-                    </div>
-    </header>
-<div class="container ">
-<div class="row">
-    <div class="col-lg-12">
-        <h1>iPrevail Fanpage</h1>
-    </div>
-</div>
-<div class="row">
-        <div class="col-lg-12">
-            <p>Innovators refashion, reup, and recharge the genre in order to usher it forward. Gold-certified Michigan quartet I Prevail not only redefine themselves on their sophomore offering, Trauma [Fearless Records], but they also redefine the genre for tomorrow’s generation. Flipping the script, the group—Brian Burkheiser [clean vocals], Eric Vanlerberghe [harsh vocals], Steve Menoian [lead guitar], and Dylan Bowman [rhythm guitar]—uplift rock to a plateau where soundscapes can unpredictably toss and turn between heavy metal, alternative, hip-hop, and electronic moods without warning, boundaries, or rules. Meanwhile, the lyrics team with confessional emotionality as if ripped from the pages of a secret diary.</p>
+  <body>
+      <header>
+          <!--Simple Navbar added from bootstrap-->
+              <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                      <a class="navbar-brand" href="#">
+                              <img src="img/iPrevail.png" height="80" class="d-inline-block align-top" alt="iPrevailLogo">
+                            </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="http://www.iprevailband.com/" target="_blank">iPrevail <span class="sr-only">(current)</span></a>
+                          </li>
+                        </ul>
+                      </div>
+      </header>
+
+      <!--Start of Content-->
+  <div class="container my-3 mb-5 ">
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="text-center my-5 text-white">iPrevail Fanpage</h1>
+      </div>
+  </div>
+
+  <div class="row">
+          <div class="col-6 shadow-lg p-3 bg-dark rounded text-light ">
+            <h2 class="text-center"> About</h2>
+              <p class="p-3">Innovators refashion, reup, and recharge the genre in order to usher it forward. Gold-certified Michigan quartet I Prevail not only redefine themselves on their sophomore offering, Trauma [Fearless Records], but they also redefine the genre for tomorrow’s generation. Flipping the script, the group—Brian Burkheiser [clean vocals], Eric Vanlerberghe [harsh vocals], Steve Menoian [lead guitar], and Dylan Bowman [rhythm guitar]—uplift rock to a plateau where soundscapes can unpredictably toss and turn between heavy metal, alternative, hip-hop, and electronic moods without warning, boundaries, or rules. Meanwhile, the lyrics team with confessional emotionality as if ripped from the pages of a secret diary.</p>
+          </div>
+          <div class="col-6">
+            <img class="img-fluid my-3" src="img/band.jpg">
+          </div>
+      </div>
+      <div class="row my-3 bg-white">
+        <div class="col-12">
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Song</th>
+                    <th scope="col">Director</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>2019</td>
+                    <td><a href="https://www.youtube.com/watch?v=n2EjeMx4bSg" target="_blank">Bow down</a></td>
+                    <td>Ben Proulx</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>2014</td>
+                    <td><a href="https://www.youtube.com/watch?v=kQ373heXB-k" target="_blank">Love Lust and Liars</a></td>
+                    <td>Sam Link</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>2014</td>
+                      <td><a href="https://www.youtube.com/watch?v=czb_CZfWko8" target="_blank">Blank Space</a></td>
+                      <td>I Prevail</td> 
+                  </tr>
+                </tbody>
+              </table>
         </div>
-    </div>
-</div>
+      </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-dark">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <h4 class="text-white py-2">Socail Media Pages</h4>
+              <!-- Facebook -->
+              <a class="fb-ic" href="http://facebook.com/iprevailband" target="_blank">
+                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic" href="https://www.instagram.com/iprevailband/" target="_blank">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </div>
+      <!-- Footer Elements -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Codycodes
+        <a href="https://codyleeper.com" target="_blank"> Codyleeper.com</a>
+      </div>
+      <!-- Copyright -->  </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 
-<div>  
-</div>
- <footer></footer>
- <script type="text/javascript" src="js/bootstrap.js"></script>
- <script type="text/javascript" src="js/bootstrap.min.js"></script>
-</body>
-
-</html>
+  </html>
