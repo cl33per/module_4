@@ -3,7 +3,10 @@
  * github @cl33per
  * Univeristy of Richmond Full Stack Program
  */
- 
+ iframe {
+    display:block;
+    width:100%;
+}
  .navbar-nav .active>.nav-link{
     color:#fff !important;
  }
