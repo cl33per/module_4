@@ -10,3 +10,7 @@
  .navbar-nav .active>.nav-link{
     color:#fff !important;
  }
+
+ .blarg:hover{
+    filter:blur(3px)
+ }
